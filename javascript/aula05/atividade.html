@@ -1,0 +1,51 @@
+<html>
+
+
+<script>
+
+let preco = "2.50"
+let temDinheiro = "5"
+// Valor do sorverte eh 2,50
+let saborEscolido = "cocolate"
+let opcao2 = true
+let saborEscolido2 = "morango"
+
+if (temDinheiro >= "2.50") {
+    console.log("escolha um sabor");
+
+    if (saborEscolido == "chocolate" || "morango" || "creme" || "napolitano") {
+      
+
+         console.log("Quer escolher mais um sabor?");
+
+            if (opcao2 == true) {
+                console.log("Qual?");
+
+                if (saborEscolido2 == "chocolate" || "morango" || "creme" || "napolitano") {
+                    console.log("O seu pedido deu: " + (preco * 2).toFixed (2));
+                }
+                    console.log("Espere seu pedido: " + saborEscolido + " e " + saborEscolido2);
+            }
+            else {
+                console.log("Seu pedido deu: " + (preco * 1).toFixed (2));
+                console.log("Espere seu pedido: " + saborEscolido);
+                
+            }
+
+    }
+    else {
+        console.log("Sabor indisponovel");
+        
+    }
+
+           
+}
+else{
+    console.log("Pobrinho");
+
+}
+</script>
+
+
+
+</html>

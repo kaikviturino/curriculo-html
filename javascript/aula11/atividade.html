@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <script>
+        // Variável para controlar o loop
+        let continuar = true;
+
+        while (continuar) {
+            // Pede para o usuário digitar a altura
+            let altura = prompt("Digite sua altura em metros (ex: 1.75):");
+            // Converte para número decimal
+            altura = parseFloat(altura);
+
+            // Pede para o usuário digitar o peso
+            let peso = prompt("Digite seu peso em kg (ex: 68.5):");
+            peso = parseFloat(peso);
+
+            // Calcula o IMC
+            let imc = peso / (altura * altura);
+
+            // Verifica a classificação do IMC usando if/else
+            let classificacao;
+            if (imc < 18.5) {
+                classificacao = "Abaixo do peso";
+            } else if (imc < 25) {
+                classificacao = "Peso normal";
+            } else if (imc < 30) {
+                classificacao = "Sobrepeso";
+            } else if (imc < 35) {
+                classificacao = "Obesidade Grau I";
+            } else if (imc < 40) {
+                classificacao = "Obesidade Grau II";
+            } else {
+                classificacao = "Obesidade Grau III";
+            }
+
+            // Mostra o resultado para o usuário
+            alert("Seu IMC é: " + imc.toFixed(2) + "\nClassificação: " + classificacao);
+
+            // Pergunta se o usuário quer calcular novamente
+            let resposta = prompt("Deseja calcular outro IMC? (s/n)").toLowerCase();
+
+            // Se a resposta não for 's' ou 'sim', encerra o loop
+            if (resposta !== "s" && resposta !== "sim") {
+                continuar = false;
+            }
+        }
+
+        alert("Obrigado por usar a calculadora de IMC!");
+    </script>
+</body>
+</html>
