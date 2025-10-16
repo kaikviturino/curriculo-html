@@ -1,13 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculo</title>
-
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo - Front-End</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Curriculo HTML</h1>
+
+  <header>
+    <img src="foto.jpg" alt="Foto de perfil" class="foto-perfil">
+    <h1>Seu Nome</h1>
+    <p>Desenvolvedor Front-End</p>
+
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou desenvolvedor Front-End com foco em JavaScript, HTML e CSS. Apaixonado por criar interfaces acessíveis, responsivas e intuitivas.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 - Avançado</li>
+        <li>CSS3 - Avançado</li>
+        <li>JavaScript - Intermediário</li>
+        <li>Git & GitHub</li>
+        <li>Responsividade</li>
+      </ul>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+
+      <article>
+        <h3>Portfólio Pessoal</h3>
+        <p>Site pessoal com projetos e blog. Feito com HTML, CSS e JS.</p>
+        <a href="https://seuportfolio.com" target="_blank">Ver Projeto</a>
+      </article>
+
+      <article>
+        <h3>To-Do App</h3>
+        <p>Aplicativo de tarefas com salvamento local e design responsivo.</p>
+        <a href="https://github.com/seuusuario/todo-app" target="_blank">Ver no GitHub</a>
+      </article>
+
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: seuemail@example.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/seuperfil" target="_blank">seuperfil</a></p>
+      <p>GitHub: <a href="https://github.com/seuusuario" target="_blank">seuusuario</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Seu Nome. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
