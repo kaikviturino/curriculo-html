@@ -1,0 +1,33 @@
+body{
+    /* fAZ COM QUE O ELEMENTO TENHA UMA IMAGEM DE FUNDO */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Harvard_University_shield.png/1024px-Harvard_University_shield.png");
+    background-size: cover;
+}   
+#R{
+    color: red;
+}
+#G{
+    color: rgb(22, 214, 22);
+}
+#B{
+    color: blue;
+}
+#red{
+    color: #ff0000;
+}
+
+#green{
+    color: rgb(22, 214, 22);
+}
+
+#blue{
+    color: blue;
+}
+h2{
+    color: rgb(90, 25, 255);
+    font-size: 70px;
+}
+p{
+    /* HEX ou código hexadecimal representa uma cor especifica. Esse código é como você receberá de seu designer sa cores para construir os sites de seus clientes */
+    color: #f445f7;
+}

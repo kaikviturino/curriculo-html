@@ -1,0 +1,17 @@
+/* Para usar uma fonte da internet, podemos usar o @import de um site especifico. No exemplo abaixo utilizamos o site Google Fonts para importar e utilizar uma nova font-family  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-align: center;
+    /* 1° valor deslocamento horizontal, 2° valor deslocamento vertical, 3° Desfoque, 4° cor da sombra */
+    text-shadow: -10px 20px 5px rgb(0, 0, 0);
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 600px;
+}

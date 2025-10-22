@@ -1,0 +1,6 @@
+/* CSS em arquivo exrterno possibilita utilizar os mesmos designs em vários folhas, não polui o HTML e facilita a organização */
+
+p{
+
+    background-color: rgb(231, 203, 253);
+}
