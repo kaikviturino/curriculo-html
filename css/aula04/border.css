@@ -1,0 +1,21 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    /* Border-width determina o tamanho da borda */
+    border-width: 10px;
+    /* Border-color determina a cor da borda */
+    border-color: blueviolet;
+    /* Border-style determina o formato da borda */
+    border-style: inset;
+}
+p{
+    text-align: center;
+    
+    /* Podemos criar bordas de maneira abreviada utilizando apenas a propriedade border.
+    Border recebe 3 valores sendo eles:
+    tamanho (10px)
+    tipo (inset)
+    cor (blueviolet)*/
+    border: 10px blueviolet inset;
+}
